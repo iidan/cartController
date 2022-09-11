@@ -26,7 +26,7 @@ public class ShoppingCartValidation {
                 isGreenItemsBarcodeStartingWith(items, "29")
         );
 
-        return Utils.checkAmountOfTrueValues(validCart.isValidGreenItems(),
+        return Utils.getAmountOfTrueValues(validCart.isValidGreenItems(),
                 validCart.isValidWeight(),
                 validCart.isValidWeightItemsSection())
                 >= MIN_TRUE_ITEMS;

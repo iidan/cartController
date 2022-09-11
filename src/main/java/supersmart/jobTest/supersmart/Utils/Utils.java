@@ -5,7 +5,7 @@ public class Utils {
         return value.toString().startsWith(prefix);
     }
 
-    public static int checkAmountOfTrueValues(Boolean...values) {
+    public static int getAmountOfTrueValues(Boolean...values) {
         int counter = 0;
         for(Boolean val : values){
             if(val){
