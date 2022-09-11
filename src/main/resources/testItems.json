@@ -1,0 +1,89 @@
+{
+  "UnitItem": [
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    },
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    },
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    }
+  ],
+  "WeightedItem": [
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    },
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    },
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    }
+  ],
+  "GreenItem": [
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    },
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    },
+    {
+      "barcode": 12345,
+      "name": "sadqwe",
+      "brande": "qweqweq",
+      "weight": 12,
+      "price": 13,
+      "color": "green",
+      "section": "no"
+    }
+  ]
+}
