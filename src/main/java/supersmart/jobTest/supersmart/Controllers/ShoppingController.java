@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import supersmart.jobTest.supersmart.Objects.Item;
-import supersmart.jobTest.supersmart.Service.CartValidation;
+import supersmart.jobTest.supersmart.Service.CartShoppingManager;
 
 import java.util.List;
 
@@ -15,16 +15,16 @@ public class ShoppingController {
 
     private Logger log = LogManager.getLogger(ShoppingController.class.getName());
 
-    final CartValidation cartValidation;
+    final CartShoppingManager cartShoppingManager;
 
-    public ShoppingController(CartValidation cartValidation) {
-        this.cartValidation = cartValidation;
+    public ShoppingController(CartShoppingManager cartShoppingManager) {
+        this.cartShoppingManager = cartShoppingManager;
     }
 
     @PostMapping(value = "/get-shopping-cart")
     public Boolean getShoppingCart(@RequestBody List<Item> items) {
         try {
-            return cartValidation.checkCartValidation(items);
+            return cartShoppingManager.checkCartValidation(items);
         } catch (Exception e) {
             log.error("Unable to validate shopping cart", e, true);
         }

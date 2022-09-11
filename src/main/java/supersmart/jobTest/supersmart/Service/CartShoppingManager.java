@@ -6,6 +6,6 @@ import supersmart.jobTest.supersmart.Objects.Item;
 import java.util.List;
 
 @Service
-public interface CartValidation {
+public interface CartShoppingManager {
     boolean checkCartValidation(List<Item> itemsList);
 }

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.testng.Assert;
 import supersmart.jobTest.supersmart.Objects.Item;
-import supersmart.jobTest.supersmart.Service.CartValidation;
+import supersmart.jobTest.supersmart.Service.CartShoppingManager;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -68,15 +68,15 @@ class SuperSmartApplicationTests {
             "]";
 
 
-    final CartValidation cartValidation;
+    final CartShoppingManager cartShoppingManager;
 
-    public SuperSmartApplicationTests(CartValidation cartValidation) {
-        this.cartValidation = cartValidation;
+    public SuperSmartApplicationTests(CartShoppingManager cartShoppingManager) {
+        this.cartShoppingManager = cartShoppingManager;
     }
 
     @Test
     void TestIfCartShoppingValid() {
-        Assert.assertEquals(cartValidation.checkCartValidation(getItemsToTest()), true);
+        Assert.assertEquals(cartShoppingManager.checkCartValidation(getItemsToTest()), true);
     }
 
     List<Item> getItemsToTest() {
